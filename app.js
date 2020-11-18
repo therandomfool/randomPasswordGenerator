@@ -20,4 +20,5 @@ const display = document.querySelector("input"),
         copyActive.style.display = "block";
         display.select();
         document.execCommand("copy");
+       
       }
